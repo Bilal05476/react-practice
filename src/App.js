@@ -31,3 +31,11 @@ export default App;
 // }
 
 // fullName()
+
+
+// function fullName(fname,lname) {
+//   return console.log(fname, lname);
+// }
+
+// fullName("Bilal", "Ahmed");
+// fullName("Faizan", "Raza");

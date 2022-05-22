@@ -2,14 +2,15 @@ import { useNavigate } from "react-router-dom";
 
 const One = () => {
   const history = useNavigate();
-  const click = () => {
-    history("/two");
+
+  const click = (link) => {
+    history(link);
   };
   return (
     <div>
       <h1>One</h1>
-      
-      <button onClick={() => click()}>Click Me</button>
+      <button onClick={() => click("/")}>Bedroom</button>
+      <button onClick={() => click("/two")}>Kitchen</button>
     </div>
   );
 };
