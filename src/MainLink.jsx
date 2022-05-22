@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-const MainLink = (props) => {
-  return <NavLink to="/two">{props.name}</NavLink>;
+const MainLink = ({ name, to }) => {
+  return <NavLink to={`${to}`}>{name}</NavLink>;
 };
 
 export default MainLink;

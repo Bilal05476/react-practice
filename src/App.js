@@ -8,8 +8,8 @@ function App() {
     <div>
       Hello World
       <br />
-      <MainLink to={"/one"} name="One" />
-      <MainLink to={"/two"} name="Two" />
+      <MainLink to="/one" name="One" />
+      <MainLink to="/two" name="Two" />
       <br />
       <br />
       <Routes>
@@ -22,3 +22,12 @@ function App() {
 }
 
 export default App;
+
+// let fname = "Faizan";
+// let lname = "raza";
+
+// function fullName(){
+//   return console.log(`My first name is ${fname} and my last name is ${lname}`)
+// }
+
+// fullName()
